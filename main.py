@@ -1,7 +1,7 @@
 #import libraries
 import pandas as pd
 import numpy as np
-import plotly as px
+import plotly.express  as px
 import streamlit as st
 import seaborn as sns
 import matplotlib.pyplot as plt  # FIXED: was `import matplotlib as plt`, should be `import matplotlib.pyplot as plt`
@@ -85,4 +85,5 @@ sns.heatmap(
     ax=ax
 )
 st.pyplot(fig_heat)
+
 
